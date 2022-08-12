@@ -1,7 +1,6 @@
 # Bankist
 
 <img src="./img/icon.png" height="50">
-<br/>
 
 ## Your online bank
 
