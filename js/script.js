@@ -5,7 +5,6 @@
 
 const account1 = {
   owner: "Muhammad Salem Hussein",
-  ownerAr: "محمد سالم حسين",
   movements: [1000, -2000, 3200, 50, -100, 90, -200, 4500, 3200, -500],
   interestRate: 1.2, // %
   pin: 1111,
@@ -23,7 +22,6 @@ const account1 = {
     "2022-04-16T21:31:17.178Z",
   ],
   currency: "EGP",
-  locale: "ar-EG", // de-DE
 };
 const account2 = {
   owner: "Ali Ahmed",
@@ -65,7 +63,29 @@ const account3 = {
   locale: "en-US",
 };
 
-const accounts = [account1, account2, account3];
+const account4 = {
+  owner: "Ahmed Sayed",
+  ownerAr: "احمد سيد",
+  movements: [1000, -2000, 3200, 50, -100, 90, -200, 4500, 3200, -500],
+  interestRate: 1.2, // %
+  pin: 4444,
+
+  movementsDates: [
+    "2021-05-08T14:11:59.604Z",
+    "2022-04-09T11:31:17.178Z",
+    "2021-07-11T23:36:17.929Z",
+    "2022-04-11T10:51:36.790Z",
+    "2021-07-11T23:36:17.929Z",
+    "2022-04-12T10:51:36.790Z",
+    "2022-04-13T21:31:17.178Z",
+    "2022-04-14T21:31:17.178Z",
+    "2022-04-15T21:31:17.178Z",
+    "2022-04-16T21:31:17.178Z",
+  ],
+  currency: "EGP",
+  locale: "ar-EG",
+};
+const accounts = [account1, account2, account3, account4];
 
 /////////////// Elements ///////////////
 // inputs
